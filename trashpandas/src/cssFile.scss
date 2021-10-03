@@ -1,0 +1,43 @@
+$theme-colors: (
+    "primary": #023436, // the blue used literally everywhere
+    "secondary": #e7e7e7, // for text highlighting
+    "light": #EAEAEA // the gray used in the background of some webpages
+);
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+.cursive {
+    font-family: 'Patrick Hand', cursive;
+};
+
+.custom-btn {
+    background:    #00BFB3;
+    border-radius: 12px;
+    box-shadow:    6px 6px #333333;
+    padding:       10px 10px;
+    color:         #e7e7e7;
+    border:        solid black;
+    font:          normal bold 30px/1 "Open Sans", sans-serif;
+    text-align:    center;
+};
+
+.custom-btn:hover {
+    background:    #03B5AA;
+};
+
+.custom-btn:active {
+    background:    #037971;
+    box-shadow:    none;
+};
+
+.input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    margin: 0 auto;
+    padding: 0.5rem 0.5rem;
+    display: block;
+    border: solid;
+    border-radius: 10px;
+};
+
+@import "./bootstrap.css";
